@@ -6,9 +6,10 @@ class File extends Model {
       {
         name: Sequelize.STRING,
         path: Sequelize.STRING,
-      }, {
-        sequelize,
       },
+      {
+        sequelize,
+      }
     );
 
     return this;
